@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio v2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+    </style>
+</head>
+<body>
+    <nav id="navID">
+        <div id="nameDiv">
+            <h1>Dhruv.</h1>
+        </div>
+        <div id="navDiv">
+            <button class="topButtons" onclick="showPage('heroPage')">HOME</button>
+            <button class="topButtons" onclick="showPage('about')">ABOUT</button>
+            <button class="topButtons" onclick="showPage('education')">EDUCATION</button>
+            <button class="topButtons" onclick="showPage('projects')">PROJECTS</button>
+        </div>
+    </nav>
+    <div id="heroPage" class="page">
+    <main>
+        <div id="textDiv">
+            <p id="hello">Hello, My Name is</p>
+            <p id="name">Dhruv Sharma</p>
+            <p id="para">I am a BTech. first year student, currently studying in University School of Automation & Robotics(USAR) under the subject, Artificial Intelligence & Machine Learning.I have a keen interest in Web Development and want to further learn how to be a good developer.</p>
+            <a href="https://www.linkedin.com/in/dhruv-sharma-1742b4321/" target="_blank">
+                <img src="images/linkedin.png" alt="linkedin" class="logos">
+            </a>
+            <a href="https://x.com/Mystic_dh7078" target="_blank">
+                <img src="images/twitter.png" alt="twit" class="logos">
+            </a>
+            <a href="https://github.com/mystic-06" target="_blank">
+                <img src="images/github.png" alt="github" class="logos">
+            </a>
+            <a href="https://www.instagram.com/dhruvsh__06/" target="_blank">
+                <img src="images/instagram.png" alt="insta" class="logos" >
+            </a>
+        </div>
+        <div id="photoDiv">
+            <img src="images/me.jpg">
+        </div>
+    </main>
+    </div>
+    <div id="about" class="page">
+        <div id="ABimgDiv">
+            <img src="images/me.jpg" alt="">
+        </div>
+        <div id="ABtextDiv">
+            <p>My Name is <b>Dhruv Sharma</b>. I live in Delhi. I have done my schooling from LFPSSS. I am currently pursuing my bachelor's degree in <b>Artificial Intelligence and Machine Learning</b> from <b>University School of Automation and Robotics</b> under GGSIP University. I have been very passionate about technology since a very young age which ended up weighing my decision of choosing AIML as the subject of bachelor's degree. I am very interested in Web Development and Proficient in HTML,CSS & JavaScript and want to further learn Web Development. Aside from that, I also have a fair amount of interest in Artificial Intelligence and want to learn the actual inner working of an AI, which was partly my reason of choosing the course I did.</p> 
+        </div>
+    </div>
+    <div id="education" class="page active">
+        <div id="EDtextDiv">
+            <h1>EDUCATION</h1>
+            <ul>
+                <li><h2>Little Flowers Public School (2010-2020)</h2>
+                <p>Primary and Secondary schooling was completed here.</p></li>
+                <li><h2>Little Flowers Sr. Sec. School (2020-2024)</h2>
+                <p>High school was completed here. Learned programming in Python and File Handling. Learned Communication Skils.</p></li>
+                <li><h2>University School of Automation and Robotics (2024-2028)</h2>
+                <p>Ongoing. Learned programming in C. Learned programming in HTML,CSS & JS.</p></li>
+            </ul>
+        </div>
+    </div>
+    <div id="projects" class="page">
+        <div>
+            <h1>PROJECTS</h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
